@@ -1,0 +1,62 @@
+.Movie-Info{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px;
+    justify-content: left;
+    border-bottom: 1px solid #d3d3d3;
+    position: relative;
+}
+
+.Movie-Info-img{
+    height:352px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.Movie-Info-Column{
+    display: flex;
+    
+    flex-direction: column;
+    
+    margin: 0;
+}
+
+.Movie-Info-Name{
+    align-items: flex-start;
+    
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    margin-top: 15px;
+
+}
+
+.Movie-detail p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin: 4px 0;
+    padding-left: 10px;
+    & span{
+        opacity: 0.5;
+    }
+}
+
+.close {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    background-color: gainsboro;
+    font-family:sans-serif;
+  }
